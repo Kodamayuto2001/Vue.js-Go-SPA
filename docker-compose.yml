@@ -10,6 +10,7 @@ services:
       - .:/app
     working_dir: /app
     tty: true
+    command: sh -c "cd assets && yarn install && yarn serve"
   go:
     build: 
       context: ./docker/go
@@ -21,4 +22,3 @@ services:
     working_dir: /go/src/app
     tty: true
     command: fresh
-    
