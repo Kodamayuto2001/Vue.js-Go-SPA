@@ -20,3 +20,5 @@ services:
       - .:/go/src 
     working_dir: /go/src/app
     tty: true
+    command: fresh
+    
