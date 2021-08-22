@@ -1,5 +1,5 @@
 # Vue.js-Go-SPA
-Go言語でAPIを作ろうと思います。
+Go言語でAPIを作っています。
 
 ```
 docker-compose build
